@@ -10,14 +10,6 @@ class GoogleSearchSpiderSpider(scrapy.Spider):
         pass
 
 
-class MyPipeline:
-    def __init__(self):
-        self.items = []
-        pass
-
-    def process_item(self, item, spider):
-        
-        pass
 
 def run(keyword,id,server): 
     process = CrawlerProcess(get_project_settings())

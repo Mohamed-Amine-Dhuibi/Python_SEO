@@ -112,8 +112,7 @@ DOWNLOADER_MIDDLEWARES = {
 #    "test_nlp.pipelines.TestNlpPipeline": 300,
 # }
 ITEM_PIPELINES = {
-    'test_nlp.pipelines.SQLPipeline': 300,
-
+    'pipelines.scraping_pipeline.MyPipeline': 300,
 }
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
